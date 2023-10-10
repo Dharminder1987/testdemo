@@ -22,7 +22,7 @@ return (
         <div className='prod-detail'>
           <button onClick={()=>navigate("/")}>Back</button>
           <h2>Detail </h2>
-          <div className='detailbtn'>
+          <div className='countryname'>
             {name}</div>
             <img src={`${image}`} alt="ImageLogo"/>
             <p>{officialname}</p>
